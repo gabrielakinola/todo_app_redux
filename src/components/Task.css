@@ -28,3 +28,19 @@
 .tasks-item {
   font-size: larger;
 }
+
+.task-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.task-check {
+  width: 20px;
+  height: 20px;
+}
+
+.task-actions label {
+  font-size: small;
+}
